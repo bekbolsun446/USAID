@@ -1,0 +1,48 @@
+@media (max-width: 991px) {
+  .hero-title {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 38px;
+    z-index: 5;
+    margin-top: 109px;
+  }
+
+  .news-card {
+    margin-top: 16px;
+  }
+
+  .footer-btn {
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+  }
+
+  .footer-map-content {
+    margin-top: 100px;
+  }
+}
+@media (max-width: 576px) {
+  .slide-link {
+    margin: 0;
+  }
+
+  .diag-icon {
+    z-index: 5;
+    transform: scale(0.5);
+  }
+
+  .diag-hero-content {
+    flex-direction: column;
+    align-items: start;
+  }
+
+  .slide-link {
+    width: 24px;
+    height: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+/*# sourceMappingURL=media.css.map */
